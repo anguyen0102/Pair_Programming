@@ -31,3 +31,11 @@ Basic structure for starting a Flask project with Jinja templates
 12. Create and change to a new local development branch ```git checkout b development```
 
 13. Continue working with the project as you normally would.
+
+### TO-DO
+
+- [x] ~~Catch all selected activities in /add and put them into the python dictionary ~~
+- [x] ~~Add about me page~~
+- [ ] Submit records to database
+- [ ] Delete a record
+- [ ] Update a record

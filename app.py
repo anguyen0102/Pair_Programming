@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import render_template
+from flask import Flask, request, render_template, redirect, url_for
 
 app = Flask(__name__)
 
@@ -27,7 +26,7 @@ def add():
         fname = form["fname"]
         flavor = form["flavor"]
         read = form["read"]
-        activities = form.getlist("activities")  # this is a PYthon list
+        activities = form.getlist("activities")  # this is a Python list
 
         print(fname)
         print(flavor)

@@ -1,3 +1,16 @@
-body{
-    background-color: azure;
+body {
+    background-color: rgb(158, 197, 232);
 }
+
+label {
+    text-align: right;
+    width: 6em;
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="text"] {
+    width: 15em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+  }
+  

@@ -1,35 +1,31 @@
 # Pair_Programming_Process
 
 ---
+
+This repository contains work to create a web form application that records a friends list with their first name, favorite ice cream flavor, favorite activities, and if they read for fun. 
+
+DEVELOPER(S): Athena Phommivong
+---
+List of Steps :
+
 1. Clone this repository to local computer
 
-2. Rename the directory to reflect the new project name
+2. Create a new virtual environment
+    - Windows: python -m venv ./venv
+    - Mac: python3 -m venv ./venv
 
-3. Delete .git folder
+3. Activate the new virtual environment
+    - Windows: .\myenv\Scripts\activate
+    - Mac: source ./myenv/bin/activate
 
-4. Create a new virtual environment 
-    - Windows:  ```python -m venv ./venv```
-    - Mac:  ```python3 -m venv ./venv```
+4. Install the dependencies pip install -r requirements.txt
 
-5. Activate the new virtual environment
-   - Windows:  ```.\venv\Scripts\activate```
-   - Mac:  ```source ./venv/bin/activate```
+5. Run the program using either:
+    - flask run
+    - python app.py
 
-6. Install the dependencies ```pip install -r requirements.txt```
+6. Use the application by visiting the URL in your web browser
 
-7. Make a new repository by running ```git init``` in the folder.
-
-8. Track all the files in the new local repository ```git add .```
-
-9. Make the first commit of this new project ```git commit -m 'first commit of <project name> from flask_template```
-
-10. On Github, create a new repository. *DO NOT* initialize it
-
-11. Connect the local repository to the new Github repository ```git remote add origin <<repository_URL>>```
-
-12. Create and change to a new local development branch ```git checkout b development```
-
-13. Continue working with the project as you normally would.
 
 ### TO-DO
 

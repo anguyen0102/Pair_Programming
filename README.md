@@ -33,7 +33,7 @@
 
 ### TO-DO
 
-- [x] ~~Catch all selected activities in /add and put them into the python dictionary ~~
+- [x] ~~Catch all selected activities in /add and put them into the python dictionary~~
 - [x] ~~Add about me page~~
 - [ ] Styling using Bootstrap 5 framework
 - [ ] Custom error messages

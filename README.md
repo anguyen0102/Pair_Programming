@@ -11,12 +11,12 @@ List of Steps :
 1. Clone this repository to local computer
 
 2. Create a new virtual environment
-    - Windows: python -m venv ./venv
+    - Windows: python -m venv ./env
     - Mac: python3 -m venv ./venv
 
 3. Activate the new virtual environment
-    - Windows: .\myenv\Scripts\activate
-    - Mac: source ./myenv/bin/activate
+    - Windows: .\venv\Scripts\activate
+    - Mac: source ./venv/bin/activate
 
 4. Install the dependencies pip install -r requirements.txt
 

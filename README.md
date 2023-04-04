@@ -25,7 +25,7 @@
 5. Run the program using either:
 
    - `flask run`
-   - `python app.py
+   - `python app.py`
    
 6. Test the application by visiting it in your web browser
 

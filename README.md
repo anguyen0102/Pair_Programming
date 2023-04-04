@@ -1,36 +1,38 @@
-# Pair_Programming_Process
+# Pair-Programming
 
----
+**Developers:** Athena Phommivong
 
-This repository contains work to create a web form application that records a friends list with their first name, favorite ice cream flavor, favorite activities, and if they read for fun. 
+**Description:** This program creates a dynamic website using a Python web framework called Flask. I do not have a paired developer, therefore I have built this program based off of what I know from Gitbash and Github thus far. 
 
-DEVELOPER(S): Athena Phommivong
----
-List of Steps :
+![Library activation homepage](library.jpg "Library homepage")
+
+**Instructions for Running Application:** 
 
 1. Clone this repository to local computer
 
 2. Create a new virtual environment
-    - Windows: python -m venv ./env
-    - Mac: python3 -m venv ./venv
+
+   - Windows: `python -m venv ./venv`
+   - Mac: `python3 -m venv ./venv`
 
 3. Activate the new virtual environment
-    - Windows: .\venv\Scripts\activate
-    - Mac: source ./venv/bin/activate
 
-4. Install the dependencies pip install -r requirements.txt
+   - Windows: `.\venv\Scripts\activate`
+   - Mac: `source ./venv/bin/activate`
+
+4. Install the dependencies `pip install -r requirements.txt`
 
 5. Run the program using either:
-    - flask run
-    - python app.py
 
-6. Use the application by visiting the URL in your web browser
+   - `flask run`
+   - `python app.py
+   
+6. Test the application by visiting it in your web browser
 
+**TO-DO**
 
-### TO-DO
-
-- [x] ~~Catch all selected activities in /add and put them into the python dictionary~~
-- [x] ~~Add about me page~~
+- [x] Catch all selected activities in /add and put them into the python dictionary
+- [ ] About page
 - [ ] Styling using Bootstrap 5 framework
 - [ ] Custom error messages
 - [ ] Flash messages

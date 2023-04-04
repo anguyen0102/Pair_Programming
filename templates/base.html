@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='css/stylesheet.css') }}"/>
+      href="{{ url_for('static', filename='css/stylesheet.css') }}"
+    />
     <title>{{ pageTitle }}</title>
   </head>
 
   <body>
+    <nav><a href = "/">Home</a> | <a href="about"> About</a></nav>
+    <div>
+      {% for message in get_flashed_messages() %}
+        {{ message }}
+      {% endfor %}
+    </div>
     <div class="container">{% block body %}xx {% endblock %}</div>
   </body>
 </html>

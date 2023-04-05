@@ -32,7 +32,7 @@
 **TO-DO**
 
 - [x] Catch all selected activities in /add and put them into the python dictionary
-- [x] About page
+- [ ] About page
 - [x] Styling using Bootstrap 5 framework
 - [x] Custom error messages
 - [x] Flash messages
